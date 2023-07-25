@@ -1,3 +1,3 @@
 # GremlinAttackStarter
 
-This contains the starter code that you will be using for the labs
+This contains the code that you will be using for the labs
