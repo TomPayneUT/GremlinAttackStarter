@@ -53,6 +53,7 @@ let camelot = new Castle();
 let al = new Gremlin("Al");
 let sue = new Gremlin("Sue", 2);
 let gremmy = new Gremlin();
+let merlin = new MagicalGremlin("Merlin");
 al.move(4);
 al.move();
 sue.move();

@@ -11,6 +11,13 @@ class Castle {
         //const gremReport: Readonly<Gremlin> = target;
         return target;
     }
+    shoot(target) {
+        target.health -= 25;
+        if ('spellPoints' in target) {
+            target.spellPoints -= 25;
+        }
+        console.log(target);
+    }
 }
 class Gremlin {
     //methods - function
@@ -65,3 +72,6 @@ sue.move();
 let alReport = camelot.spyGremlin(al);
 //alReport.health = 95;  //this line won't work since alReport is readonly
 console.log(alReport);
+//camelot.shoot("Wrong Type");
+camelot.shoot(al);
+camelot.shoot(merlin);
