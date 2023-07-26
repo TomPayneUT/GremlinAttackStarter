@@ -1,0 +1,10 @@
+10 min
+Make a shoot(target: Attackable) method inside the Castle class
+-Reduce the target health property by 25
+-If the target has spellPoints: take away 25 spellPoints
+-Have it console.log a report with the results
+Try shooting various targets
+What happens when you try to shoot 
+-a string
+-a Gremlin
+-a MagicalGremlin

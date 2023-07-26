@@ -1,0 +1,7 @@
+10 min
+Update the Gremlin move() method to handle a gremlin trying to move past location 9 (the castle is at location 10)
+-Stop the gremlin at location 9
+-Throw a new Error() with a friendly error message
+Try moving al too far
+-Notice the app crash with your error message
+Catch the error to handle it without crashing the app

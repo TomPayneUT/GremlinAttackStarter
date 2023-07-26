@@ -1,0 +1,5 @@
+10 min
+Create a custom GremlinTooFarError()
+Rewrite the gremlin move() method to use it instead
+-Move ‘al’ too far without catching the error
+-It now displays as your custom GremlinTooFarError

@@ -1,0 +1,4 @@
+10 min
+Create a ‘spyGremlin’ method in the Castle class that takes a gremlin returns a readonly version of that Gremlin
+-Run the method on ‘al’ and name the result alReport
+-Try changing the health property of your alReport variable

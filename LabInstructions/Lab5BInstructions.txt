@@ -1,0 +1,7 @@
+10 min
+Create a class called ‘Magical’ 
+-Give that class a method called ‘enchant’ 
+-The method should console.log a message like ‘this glows with power’
+applyMixins to make the MagicalGremlin inherit Magical and Gremlin
+-Have merlin run the enchant method
+-merlin.enchant()
