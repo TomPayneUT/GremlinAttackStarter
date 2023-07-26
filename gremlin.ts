@@ -58,11 +58,7 @@ export class MagicalGremlin extends Gremlin{
 }
 
 let al = new Gremlin("Al");
-// al.name = "Al";
-al.speed = 10000000000000;
-// al.setSpeed(3);
 let sue = new Gremlin("Sue", 2);
-// sue.speed = 2;
 let gremmy = new Gremlin();
 
 
@@ -70,25 +66,3 @@ al.move(4);
 al.move();
 sue.move();
 sue.move();
-console.log(Gremlin.max_location);
-
-let barrier: Attackable = {name: "Outer Wall", height: 10, health: 500};
-
-
-
-class ItemPack<T>{
-    things: T[] = [];
-
-    getItem(num: number): T {
-        return this.things[num];
-    }
-}
-
-let gremPack = new ItemPack<Gremlin>();
-let wordsPack = new ItemPack<string>();
-
-gremPack.things[0] = al;
-wordsPack.things[1] = "Hello";
-
-let theThing = gremPack.getItem(0);
-theThing.move();
