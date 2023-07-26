@@ -8,6 +8,11 @@ class Castle implements Attackable{
     health: number = 1000;
     name: string = "Camelot";
     height: number = 10;
+
+    spyGremlin(target: Gremlin): Readonly<Gremlin> {
+        //const gremReport: Readonly<Gremlin> = target;
+        return target;
+    }
 }
 
 export class Gremlin implements Attackable {
@@ -67,3 +72,7 @@ al.move(4);
 al.move();
 sue.move();
 sue.move();
+
+let alReport = camelot.spyGremlin(al)
+//alReport.health = 95;  //this line won't work since alReport is readonly
+console.log(alReport);

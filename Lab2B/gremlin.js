@@ -7,6 +7,10 @@ class Castle {
         this.name = "Camelot";
         this.height = 10;
     }
+    spyGremlin(target) {
+        //const gremReport: Readonly<Gremlin> = target;
+        return target;
+    }
 }
 class Gremlin {
     //methods - function
@@ -57,3 +61,6 @@ al.move(4);
 al.move();
 sue.move();
 sue.move();
+let alReport = camelot.spyGremlin(al);
+//alReport.health = 95;
+console.log(alReport);
